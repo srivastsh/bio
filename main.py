@@ -26,7 +26,7 @@ age = st.number_input("What is your age?", min_value=18, max_value=99)
 location = st.text_input("What is your location?")
 hobbies = st.text_input("What are your hobbies?")
 
-prompt = (f"Please write a dating app bio for a {age} year old named {name} from {location} who enjoys {hobbies}. Make it flirty")
+prompt = (f"Please write a dating app bio for a {age} year old named {name} from {location} who enjoys {hobbies}. Make it flirty.")
 
 
 bio = generate_bio(prompt)
